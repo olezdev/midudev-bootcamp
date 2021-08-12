@@ -1,17 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 
-/**
- * forma corta en una linea, devuelve lo primero
- const Header = ({course}) => <h1>{course}</h1> 
- */
-
-const Header = (props) => {
-  'const {course} = props'
-  'const course = props.course'
-  console.log(props)
-  return <h1>{props.course}</h1>
-}
+const Header = ({course}) => <h1>{course}</h1>
 
 const Content = (props) => {
   return (
